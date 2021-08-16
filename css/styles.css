@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.background {
+  background: #E0E8FF url('../images/pattern-background-desktop.svg') no-repeat top;
+  padding: 10vh 10vw;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container-box {
+  height: 650px;
+  width: 450px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.title-img {
+  background-image: url('../images/illustration-hero.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.heading-container {
+  padding: 0 5vw;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #1F2F56;
+}
+
+.para {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #7280A7;
+}
+
+.price-box {
+  width: 360px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #F5F7FF;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.music-img {
+  height: 48px;
+  width: 48px;
+  background-image: url('../images/icon-music.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.price-heading {
+  font-weight: 900;
+  font-size: 16px;
+  color: #1F2F56;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  color: #7280A7;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: #3829E0;
+}
+
+.button {
+  width: 360px;
+  height: 50px;
+  background: #3829E0;
+  box-shadow: 0px 15px 30px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 16px;
+  color: #F5F7FF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.link-cancel {
+  font-weight: 900;
+  font-size: 15px;
+  text-align: center;
+  color: #7280A7;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .background {
+    padding: 10vh 20vw;
+    background-image: url('../images/pattern-background-mobile.svg');
+  }
+
+  .price-box {
+    width: 305px;
+  }
+
+  .button {
+    width: 300px;
+  }
+
+  .button-container {
+    width: 330px;
+  }
+}
